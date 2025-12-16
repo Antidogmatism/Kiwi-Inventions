@@ -1,0 +1,213 @@
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 4rem;
+  color: var(--text);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 4rem;
+  padding: 3.5rem 2rem;
+  background: radial-gradient(1200px 400px at 10% 10%, rgba(20,184,166,0.08), transparent 15%), linear-gradient(135deg, #f0fffe 0%, #ffffff 100%);
+  border-radius: 20px;
+  border: 1px solid rgba(15, 118, 110, 0.1);
+  box-shadow: 0 8px 32px rgba(15, 23, 42, 0.06);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.app-header h1 {
+  margin: 0 0 0.8rem;
+  font-size: 3.8rem;
+  letter-spacing: -0.025em;
+  font-weight: 900;
+  background: linear-gradient(135deg, #0f766e 0%, #0d5a55 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1.15;
+}
+
+.app-tagline {
+  margin: 0;
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: -0.005em;
+}
+
+.intro {
+  margin-bottom: 4rem;
+  text-align: center;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2.5rem 2rem;
+  font-size: 1.15rem;
+  line-height: 1.85;
+  color: var(--text-secondary);
+  font-weight: 400;
+  background: linear-gradient(135deg, var(--accent-light) 0%, transparent 100%);
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.inventions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.invention-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 0;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.05);
+  border: 1px solid var(--border);
+  text-align: left;
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.25s ease,
+    border-color 0.25s ease;
+  overflow: hidden;
+}
+
+.invention-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 48px rgba(15, 23, 42, 0.12);
+  border-color: var(--accent-2);
+}
+
+.invention-image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  background: linear-gradient(135deg, var(--accent-1, #0f766e), var(--accent-2, #14b8a6));
+}
+
+.invention-image-placeholder {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, var(--accent-1, #0f766e), var(--accent-2, #14b8a6));
+  opacity: 0.1;
+}
+
+.invention-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  z-index: 1;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.invention-card:hover .invention-image {
+  transform: scale(1.08);
+}
+6rem 1.6rem 1.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+/* accessible focus state for keyboard users */
+.invention-card:focus-within,
+.invention-card:focus {
+  outline: 2px solid var(--accent-1);
+  outline-offset: 1px;
+}
+
+.invention-name {
+  margin: 0;
+  font-size: 1.35rem;
+  color: var(--text);
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.invention-meta {
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.inventor {
+  font-weight: 700;
+  color: var(--accent-1);
+}
+
+.year,
+.category {
+  font-weight: 400;
+  color: var(--muted);
+}
+
+.invention-summary {
+  margin: 0;
+  font-size: 04rem;
+  padding: 2rem 0;
+  border-top: 1px solid var(--border);
+  font-size: 0.9rem;
+  color: var(--muted);
+  text-align: center;
+}
+
+.app-footer code {
+  font-size: 0.85em;
+  background: var(--accent-light);
+  color: var(--accent-1);
+  padding: 0.2rem 0.5rem;
+  border-radius: 6px;
+  font-weight: 600
+  color: #6b7280;
+}
+
+.app-footer code {
+  font-size: 0.85em;
+  background: #f3f4f6;
+  padding: 0.1rem 0.3rem;
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .app {
+    padding: 2rem 1rem 3rem;
+  }
+
+  .app-header {
+    margin-bottom: 3rem;
+    padding: 2.5rem 1.5rem;
+  }
+
+  .app-header h1 {
+    font-size: 3rem;
+  }
+
+  .app-tagline {
+    font-size: 1.1rem;
+  }
+
+  .intro {
+    font-size: 1.05rem;
+    margin-bottom: 3rem;
+    padding: 2rem 1.5rem;
+  }
+
+  .inventions-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .invention-image-wrapper {
+    height: 180px;
+  }
+}
