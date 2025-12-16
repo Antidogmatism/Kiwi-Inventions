@@ -243,4 +243,67 @@ export const inventions = [
       "Dr. Black developed an artificial reef system that promotes marine biodiversity and helps restore damaged ocean ecosystems, now used in various locations worldwide.",
     image: artificialReefImg,
   },
+  {
+    name: "Plastic & Cosmetic Surgery",
+    inventor: "Harold Gillies",
+    year: 1916,
+    category: "Medicine & Healthcare",
+    summary:
+      "Dunedin-born Harold Gillies is considered the 'father of plastic surgery' for his pioneering work in facial reconstruction during World War I, revolutionizing surgical techniques worldwide.",
+    image: undefined,
+  },
+  {
+    name: "Water Cremation",
+    inventor: "Matthew Brown",
+    year: 2007,
+    category: "Technology & Innovation",
+    summary:
+      "While the modern pet and human water cremation system was invented by Matthew Brown, the concept of alkaline hydrolysis was known to Māori centuries ago for high-ranking individuals.",
+    image: undefined,
+  },
+  {
+    name: "Seismic Isolators",
+    inventor: "Bill Robinson",
+    year: 1972,
+    category: "Engineering & Architecture",
+    summary:
+      "Government scientist Bill Robinson developed flexible building piles (base isolation) to protect structures in earthquake-prone areas. This technology is used in major buildings worldwide, including the University of California Teaching Hospital and the New Zealand Parliament Buildings.",
+    image: undefined,
+  },
+  {
+    name: "Aerial Topdressing",
+    inventor: "New Zealand Farmers",
+    year: 1945,
+    category: "Agriculture",
+    summary:
+      "New Zealand was the first country to successfully use light aircraft for distributing fertiliser and sowing seeds on rugged farmland, a practice that expanded rapidly after World War II and is now used globally.",
+    image: undefined,
+  },
+  {
+    name: "Rotary Milking Shed",
+    inventor: "Waikato Dairy Farmers",
+    year: 1952,
+    category: "Agriculture",
+    summary:
+      "The innovative design for a rotary platform milking system, which vastly improved efficiency in dairy farming, originated in New Zealand and is now the dominant design used in modern dairy operations worldwide.",
+    image: undefined,
+  },
+  {
+    name: "Two-Drawer Dishwasher",
+    inventor: "Fisher & Paykel",
+    year: 1997,
+    category: "Kitchen Innovation",
+    summary:
+      "Fisher & Paykel designed and developed the first two-drawer dishwasher, which revolutionized kitchen design and convenience by allowing users to run partial loads and providing flexible washing options.",
+    image: undefined,
+  },
+  {
+    name: "EasiYo",
+    inventor: "Len Light",
+    year: 1977,
+    category: "Food & Beverage",
+    summary:
+      "The popular system for making fresh, homemade yogurt was invented by Len Light, making yogurt production simple and accessible for home users worldwide.",
+    image: undefined,
+  },
 ];
