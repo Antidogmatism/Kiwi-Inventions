@@ -25,6 +25,13 @@ import tranquilliserGunImg from "./assets/Tranquilliser Gun.webp";
 import virtualFencingImg from "./assets/Virtual Fencing.webp";
 import number8WireImg from "./assets/number8Wire.webp";
 import artificialReefImg from "./assets/Artificial Reef.webp";
+import plasticSurgeryImg from "./assets/Plastic & Cosmetic Surgery.jpg";
+import waterCremationImg from "./assets/Water Cremation.webp";
+import seismicIsolatorsImg from "./assets/Seismic Isolators.jpg";
+import aerialTopdressingImg from "./assets/Aerial Topdressing.jpg";
+import rotaryMilkingShedImg from "./assets/Rotary Milking Shed.jpg";
+import twoDrawerDishwasherImg from "./assets/The Two-Drawer Dishwasher.jpg";
+import easiyoImg from "./assets/EasiYo.avif";
 
 export const inventions = [
   {
@@ -250,7 +257,7 @@ export const inventions = [
     category: "Medicine & Healthcare",
     summary:
       "Dunedin-born Harold Gillies is considered the 'father of plastic surgery' for his pioneering work in facial reconstruction during World War I, revolutionizing surgical techniques worldwide.",
-    image: undefined,
+    image: plasticSurgeryImg,
   },
   {
     name: "Water Cremation",
@@ -259,7 +266,7 @@ export const inventions = [
     category: "Technology & Innovation",
     summary:
       "While the modern pet and human water cremation system was invented by Matthew Brown, the concept of alkaline hydrolysis was known to Māori centuries ago for high-ranking individuals.",
-    image: undefined,
+    image: waterCremationImg,
   },
   {
     name: "Seismic Isolators",
@@ -268,7 +275,7 @@ export const inventions = [
     category: "Engineering & Architecture",
     summary:
       "Government scientist Bill Robinson developed flexible building piles (base isolation) to protect structures in earthquake-prone areas. This technology is used in major buildings worldwide, including the University of California Teaching Hospital and the New Zealand Parliament Buildings.",
-    image: undefined,
+    image: seismicIsolatorsImg,
   },
   {
     name: "Aerial Topdressing",
@@ -277,7 +284,7 @@ export const inventions = [
     category: "Agriculture",
     summary:
       "New Zealand was the first country to successfully use light aircraft for distributing fertiliser and sowing seeds on rugged farmland, a practice that expanded rapidly after World War II and is now used globally.",
-    image: undefined,
+    image: aerialTopdressingImg,
   },
   {
     name: "Rotary Milking Shed",
@@ -286,7 +293,7 @@ export const inventions = [
     category: "Agriculture",
     summary:
       "The innovative design for a rotary platform milking system, which vastly improved efficiency in dairy farming, originated in New Zealand and is now the dominant design used in modern dairy operations worldwide.",
-    image: undefined,
+    image: rotaryMilkingShedImg,
   },
   {
     name: "Two-Drawer Dishwasher",
@@ -295,7 +302,7 @@ export const inventions = [
     category: "Kitchen Innovation",
     summary:
       "Fisher & Paykel designed and developed the first two-drawer dishwasher, which revolutionized kitchen design and convenience by allowing users to run partial loads and providing flexible washing options.",
-    image: undefined,
+    image: twoDrawerDishwasherImg,
   },
   {
     name: "EasiYo",
@@ -304,6 +311,6 @@ export const inventions = [
     category: "Food & Beverage",
     summary:
       "The popular system for making fresh, homemade yogurt was invented by Len Light, making yogurt production simple and accessible for home users worldwide.",
-    image: undefined,
+    image: easiyoImg,
   },
 ];
